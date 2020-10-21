@@ -1,0 +1,29 @@
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: initial;
+}
+input{
+    outline: 0;
+    border: 0;
+    border: 1px solid #ccc;
+}
+.clear::after{
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+html,body,#app{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
